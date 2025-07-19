@@ -12,7 +12,7 @@ let responses = {}
 let data = {}
 app.get('/api/getdata', function(req, res) {
   if (req.method == "OPTIONS"){
-    res.set("Access-Control-Allow-Origin", "https://html-classic.itch.zone")
+    res.set("Access-Control-Allow-Origin", "*")
     res.connection.destroy();
   }
   let room;
