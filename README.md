@@ -4,7 +4,7 @@ Saarella Rebooted pelin julkinen palvelin-ohjelmisto
 ## Ohjeet yksinpeliin (windows 11):
 1. Tee uusi hakemisto ja lataa ```server.js``` tiedosto sinne
 2. Lataa node.js (https://nodejs.org/en)
-3. Suorita seuraavat komennot samassa aiemmin tehdyssä hakemistossa:  ```npm init -y``` ja ```npm install express```
+3. Suorita seuraavat komennot samassa aiemmin tehdyssä hakemistossa:  ```npm init -y```, ```npm install express``` ja ```npm install cors```.
 4. Viimeisenä suorita seuraava komento: ```node server.js```
 
 Nyt palvelin on käynnissä ja sitä voi käyttää kun laittaa saarella-rebooted pelin alkuvalikossa palvelimen osoitteeksi ```http://127.0.0.1:8080```
